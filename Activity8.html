@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: gray;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 300px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<p id="top"></p> 
+
+<header>
+  <h2>Favorite Movies</h2>
+  <p>By Allenby M. Ocyo</p>
+</header>
+<section>
+  <nav>
+    <ul>
+    <li><a href="#1">1. Demon Slayer</a></li>
+    <li><a href="#2">2. No Game No Life Zero</a></li>
+    <li><a href="#3">3. Code Geass: Lelouch of the Re;Surrection</a></li>
+    <li><a href="#4">4. Violet Evergarden: The Movie</a></li>
+    <li><a href="#5">5. Fireworks</a></li>
+    </ul>
+    </nav>
+ 
+  <article>
+  <p><a href="#1"><img src="demonslayer.jpg" alt="1" style="width:180px;height:180px;"></a> <a href="#2"><img src="zero.jpg" alt="2" style="width:180px;height:180px;"></a><a href="#3"><img src="code.jpg" alt="3" style="width:180px;height:180px;"></a><a href="#4"><img src="violet.jpg" alt="4" style="width:180px;height:180px;"></a><a href="#5"><img src="fireworks.jpg" alt="5" style="width:180px;height:180px;"></a></p>
+    
+    <h1 id="1">Demon Slayer</h1>
+    <p>A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.</p>
+<img src="demonslayer.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+	<h1 id="2">No Game No Life: Zero</h1>
+    <p>Adaption of the sixth Light Novel of series, it follows the story of two new characters - Riku and Shuvi - during the events of the Ancient War, prior to the 10 pledges.</p>
+    <img src="zero.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+    
+    <h1 id="3">Code Geass: Lelouch of the Re;Surrection</h1>
+    <p>The story takes place several years after Lelouch's "Zero Requiem" plan.</p>
+    <img src="code.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+    
+    <h1 id="4">Violet Evergarden: The Movie</h1>
+    <p>After the aftermath of a war, a young girl who was used as a 'tool' for war learned to live. With the scars of burns , she goes back to her past to feel the true feelings of the Major's ,"I love you."</p>
+    <img src="violet.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+    
+    <h1 id="5">Fireworks</h1>
+    <p>Schoolchildren Norimichi, Yûsuke and Jun'ichi want to know if fireworks look round or flat from the side. They make a plan to find the answer at a fireworks display, while Nazuna schemes to run away with Norimichi or Yûsuke, whoever wins at the pool.
+
+This film tells the story of a schoolgirl who finds a pretty transparent ball by the sea, on the day of a fireworks display of a religious festival in a seaside town in Japan. She plans to run away from home to escape from her unhappy home, as her mother is about to remarry for the third time. However, her escape fails until her male classmate finds out the supernatural power that the transparent ball has.</p>
+	<img src="fireworks.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+    
+<p><a href="#top">Back to top</a></p>
+    
+    <h1>Reference Links</h1>
+    <p><a href="https://www.imdb.com/title/tt9335498/?ref_=nv_sr_srsg_0" target="_blank">Demon Slayer</a></p>
+    <p><a href="https://www.imdb.com/title/tt5914996/?ref_=nv_sr_srsg_0" target="_blank">No Game No Life: Zero</a></p>
+    <p><a href="https://www.imdb.com/title/tt6344664/?ref_=nv_sr_srsg_2" target="_blank">Code Geass:Lelouch of the Re:Surrection</a></p>
+    <p><a href="https://www.imdb.com/title/tt8652818/?ref_=nv_sr_srsg_3" target="_blank">Violet Evergarden: The Movie</a></p>
+    <p><a href="https://www.imdb.com/title/tt6317962/?ref_=nv_sr_srsg_1" target="_blank">Fireworks</a></p>
+    
+  </article>
+</section>
+
+</body>
+</html>

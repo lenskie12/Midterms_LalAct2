@@ -1,0 +1,209 @@
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+	<nav>
+     <a href="index.html">Home</a>
+     <a href="activity1.html">Activity1</a>
+     <a href="activity2.html">Activity2</a>
+     <a href="activity3.html">Activity3</a>
+	 <a href="activity4.html">Activity4</a>
+     <a href="activity5.html">Activity5</a>
+	 <a href="activity6.html">Activity6</a>
+	 <a href="activity7.html">Activity7</a>
+     <a href="activity8.html">Activity8</a>
+	 <a href="activity9.html">Activity9</a>
+    </nav> 
+
+<h1>Registration Form<br> Ocyo, Allenby M.</h1>
+
+<form>
+  <label for="StudentNumber">Student Number :</label>
+  <input type="text" id="studentnumber" name="fname" maxlength="8" size="7" placeholder="12345678"><br><br>
+
+  <label for="StudentName">Student Name :</label>
+  <input type="text" id="lname" name="lname" placeholder="Last Name">,
+  <input type="text" id="fname" name="fname" placeholder="First Name">
+  <input type="text" id="mname" name="mname" placeholder="Middle Name"><br><br>
+  
+  <label for="Course/Program">Course/Program :</label>
+  <input list="Course/Program" name="Course/Program" size="50">
+  <datalist id="Course/Program">
+  	<option value="BSIT/Bachelor of Science in Information Technology">
+    <option value="BSCS/Bachelor of Science in Computer Science">
+    <option value="BSCE/Bachelor of Science in Computer Engineering">
+  </datalist><br><br>
+  
+  <label for="MobileNumber">Moblie No. :</label>
+  <input type="text" id="studentnumber" name="fname" placeholder="09123456789" size="12">
+  <label for="email">Email Adrress :</label>
+  <input type="email" id="email" name="email" placeholder="@gmail.com"><span class="error">*<br><br>
+  
+  <label for="Address">Residential Address:</label>
+  <textarea rows="3" id="30" name="address" size="20"></textarea>
+  <label for="Address">Permanent Address:</label>
+  <textarea rows="3" id="20" name="address" size="20"></textarea><br><br>
+  
+  <label for="Region">(Permanent) Region :</label>
+  <input list="Regions" name="Region" size="35">
+  <datalist id="Regions">
+  	<option value="National Capital Region (NCR)">
+    <option value="Cordillera Administrative Region (CAR)">
+    <option value="Ilocos Region (Region I)">
+    <option value="Cagayan Valley (Region II)">
+    <option value="Central Luzon (Region III)">
+    <option value="Calabarzon (Region IV-A)">
+    <option value="Southwestern Tagalog Region (Mimaropa)">
+    <option value="Bicol Region (Region V)">
+    <option value="Western Visayas (Region VI)">
+    <option value="Central Visayas (Region VII)">
+    <option value="Eastern Visayas (Region VIII)">
+    <option value="Zamboanga Peninsula (Region IX)">
+    <option value="Northern Mindanao (Region X)">
+    <option value="Davao Region (Region XI)">
+    <option value="Soccsksargen (Region XII)">
+    <option value="Caraga (Region XIII)">
+    <option value="Bangsamoro (BARMM)">
+  </datalist><br><br>
+  
+  <label for="Province">(Permanent) Province :</label>
+  <input list="Provinces" name="Province" size="15">
+  <datalist id="Provinces">
+  	<option value="Abra">
+    <option value="Apayao">
+    <option value="Benguet">
+    <option value="Ifugao">
+    <option value="Kalinga">
+    <option value="Mountain Province">
+    <option value="Ilocos Norte">
+    <option value="Ilocos Sur">
+    <option value="La Union">
+    <option value="Pangasinan">
+    <option value="Batanes">
+    <option value="Cagayan">
+    <option value="Isabela">
+    <option value="Nueva Vizcaya">
+    <option value="Quirino">
+    <option value="Aurora">
+    <option value="Bataan">
+    <option value="Bulacan">
+    <option value="Nueva Ecija">
+    <option value="Pampanga">
+    <option value="Tarlac">
+    <option value="Zambales">
+    <option value="Batangas">
+    <option value="Cavite">
+    <option value="Laguna">
+    <option value="Quezon">
+    <option value="Rizal">
+    <option value="Marinduque">
+    <option value="Occidental Mindoro">
+    <option value="Oriental Mindoro">
+    <option value="Palawan">
+    <option value="Romblon">
+    <option value="Albay">
+    <option value="Camarines Norte">
+    <option value="Camarines Sur">
+    <option value="Catanduanes">
+    <option value="Masbate">
+    <option value="Sorsogon">
+    <option value="Aklan">
+    <option value="Antique">
+    <option value="Capiz">
+    <option value="Guimaras">
+    <option value="Iloilo">
+    <option value="Negros Occidental">
+    <option value="Bohol">
+    <option value="Cebu">
+    <option value="Negros Oriental">
+    <option value="Siquijor">
+    <option value="Biliran">
+    <option value="Eastern Samar">
+    <option value="Leyte">
+    <option value="Northern Samar">
+    <option value="Samar">
+    <option value="Southern Leyte">
+    <option value="Zamboanga del Norte">
+    <option value="Zamboanga del Sur">
+    <option value="Zamboanga Sibugay">
+    <option value="Bukidnon">
+    <option value="Camiguin">
+    <option value="Lanao del Norte">
+    <option value="Misamis Occidental">
+    <option value="Misamis Oriental">
+    <option value="Davao de Oro">
+    <option value="Davao del Norte">
+    <option value="Davao del Sur">
+    <option value="Davao Occidental">
+    <option value="Davao Oriental">
+    <option value="Cotabato">
+    <option value="Sarangani">
+    <option value="South Cotabato">
+    <option value="Sultan Kudarat">
+    <option value="Agusan del Norte">
+    <option value="Agusan del Sur">
+    <option value="Dinagat Islands">
+    <option value="Surigao del Norte">
+    <option value="Surigao del Sur">
+    <option value="Basilan">
+    <option value="Lanao del Sur">
+    <option value="Maguindanao">
+    <option value="Sulu">
+    <option value="Tawi-Tawi">
+    </datalist><br><br>
+  
+  <label for="Municipality">(Permanent Municipality) :</label>
+  <input type="text" id="Municipality" name="Permanent Municipality" placeholder="City" size="10"><br><br>
+
+  <label for="TelephoneNumber">Permanent Tel. No. :</label>
+  <input type="text" id="TelephoneNumber" name="Permanent Telephone Number" placeholder="579-69-692" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" size="12"><br><br>
+  
+  <label for="Date of Birth">Date of Birth :</label>
+  <input type="text" id="Year" name="Year" placeholder="2000" size="8">
+  <input type="text" id="Day" name="Day" placeholder="31" size="5">,
+  <input type="text" id="Month" name="Month" placeholder="12" size="5">
+  <label for="Birth">Place of Birth :</label>
+  <input type="text" id="Birth" name="Place of Birth" placeholder="Baguio City"><br><br>
+  
+  <label for="Gender">Gender :</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <label for="Religion">Religion :</label>
+  <input list="Religions" name="Religion">
+  <datalist id="Religions">
+  	<option value="Christianity">
+    <option value="Islam">
+    <option value="Hinduism">
+    <option value="Buddhism">
+    <option value="Sikhism">
+    <option value="Taoism">
+    <option value="Judaism">
+    <option value="Confucianism">
+    <option value="Bahá'í">
+    <option value="Shinto">
+    <option value="Jainism">
+    <option value="Zoroastrianism">
+  </datalist><br><br>
+  
+  <label for="Nationality">Nationality :</label>
+  <input type="text" id="Nationality" name="Nationality" placeholder="Filipino" size="10">
+  <label for="Status">Civil Status :</label>
+  <input list="Status" name="Civil Status">
+  <datalist id="Status">
+  	<option value="Married">
+    <option value="Single">
+    <option value="Divorced">
+    <option value="Widowed">
+  </datalist>
+  
+</form>
+</body>
+</html>
